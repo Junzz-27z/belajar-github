@@ -2,7 +2,8 @@
 
 int main() {
   for(int i = 0; i < 5; i++) {
-      printf("Ini index ke - %d\n", i);
+    printf("hasil pangkat index ke - %d : %d\n", i, i * i);
+    printf("Ini index ke - %d\n", i);
   }
   return 0;
 }
